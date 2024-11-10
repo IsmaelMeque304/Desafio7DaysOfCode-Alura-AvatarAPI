@@ -14,6 +14,12 @@ O projeto utiliza uma API aberta de **Avatar: A Lenda de Aang**, permitindo aces
 - **Dia 2: Tradução de Atributos**  
   No segundo desafio, traduziremos alguns atributos, como `name` (nome) e `affiliation` (afiliação), para português, usando a biblioteca Googletrans.
 
+- **Dia 3: Início com Django**
+No terceiro desafio, damos o primeiro passo com o framework Django. Este desafio consiste em criar um projeto Django, iniciar um aplicativo para gerenciar os personagens e configurar o projeto para registrar o app criado. Ao final, o projeto deve estar executando localmente com a página inicial do Django acessível.
+
+- **Dia 4: Criação de Views e Rotas**
+No quarto desafio, avançamos no desenvolvimento com Django criando as views e configurando as rotas. Utilizando a arquitetura MVT (Model, View, Template) do Django, criamos uma view simples que exibe uma mensagem de boas-vindas e ajustamos as rotas para exibir essa página no navegador.
+
 ## Sobre o Desafio #7DaysOfCode
 
 Este desafio é promovido pela Alura e é uma ótima oportunidade para praticar Python em um projeto prático de API. Cada dia traz uma tarefa incremental, aumentando a complexidade do código.
