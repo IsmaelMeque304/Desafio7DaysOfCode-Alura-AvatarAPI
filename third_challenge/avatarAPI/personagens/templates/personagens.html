@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Personagens de Avatar</title>
+</head>
+<body>
+    <h1>Personagens de Avatar</h1>
+    <ul>
+        {% for personagem in personagens %}
+            <li><strong>Nome:</strong> {{ personagem.name }}</li>
+            <li><strong>Afiliação:</strong> {{ personagem.affiliation }}</li>
+            <li><strong>Aliados:</strong> {{ personagem.allies|join:", " }}</li>
+            <li><strong>Inimigos:</strong> {{ personagem.enemies|join:", " }}</li>
+            <hr>
+        {% endfor %}
+    </ul>    
+</body>
+</html>
