@@ -18,7 +18,10 @@ O projeto utiliza uma API aberta de **Avatar: A Lenda de Aang**, permitindo aces
 No terceiro desafio, damos o primeiro passo com o framework Django. Este desafio consiste em criar um projeto Django, iniciar um aplicativo para gerenciar os personagens e configurar o projeto para registrar o app criado. Ao final, o projeto deve estar executando localmente com a página inicial do Django acessível.
 
 - **Dia 4: Criação de Views e Rotas**
-No quarto desafio, avançamos no desenvolvimento com Django criando as views e configurando as rotas. Utilizando a arquitetura MVT (Model, View, Template) do Django, criamos uma view simples que exibe uma mensagem de boas-vindas e ajustamos as rotas para exibir essa página no navegador.
+No quarto desafio, avançamos no desenvolvimento com Django criando as views e configurando as rotas. Utilizando a arquitetura MVT (Model, View, Template) do Django, incluindo tradução dos atributos para português utilizando a biblioteca deep-translator.
+
+- **Dia 5: Estilização com Bootstrap**  
+No quinto desafio, adicionamos uma tabela estilizada utilizando Bootstrap para exibir as informações dos personagens traduzidos e obtidos da API.
 
 ## Sobre o Desafio #7DaysOfCode
 
